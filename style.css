@@ -185,14 +185,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.engaging_courses{
+    padding-top: 2.5rem;
+}
 .engage_course h2{
     color: #fff;
-    font-size: 3rem;
-    padding-top: 5rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
 }
 
-
+.engage_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+}
 .engage_first_part{
     background-color: var(--orange-cart);
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
@@ -205,6 +213,7 @@ body{
 .testimonial_header{
     font-size: 3rem;
 }
+
 
 @media screen and (max-width:767px) {
     .header_body{
@@ -289,6 +298,7 @@ body{
     .testimonial_img_second{
         margin-top: 1.5rem;
     }
+    
 }
 
 
