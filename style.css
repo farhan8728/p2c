@@ -186,6 +186,26 @@ body{
     background-size: cover;
 }
 
+.engage_course h2{
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+
+.engage_first_part{
+    background-color: var(--orange-cart);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    height: 300px;
+    width: 220px;
+    margin-top: 2rem;
+}
+
+.testimonial_header{
+    font-size: 3rem;
+}
+
 @media screen and (max-width:767px) {
     .header_body{
         background-image: linear-gradient(to bottom, rgba(60, 60, 61, 0.52), rgba(46, 45, 46, 0.73)),
@@ -217,6 +237,9 @@ body{
         margin-bottom: 1.5rem;
     }
 
+    .learning_program{
+        font-size: 2rem;
+    }
 
     .first_sec{
         margin-left: 1.2rem;
@@ -242,10 +265,30 @@ body{
 
     .engage_course{
         background-position: center;
+        height: 225vh;
     }
     
-    
-    
+    .engage_course h2{ 
+        font-size: 2rem;  
+    }
+
+    .engage_first_part{
+        height: 300px;
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .engage_last_part{
+        margin-bottom: 2rem;
+    }
+    .testimonial_img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonial_img_second{
+        margin-top: 1.5rem;
+    }
 }
 
 
@@ -280,6 +323,11 @@ body{
         padding-bottom: 1rem;
         margin-bottom: 32px;
     }
+    .third_testimonial{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
@@ -291,5 +339,24 @@ body{
 @media screen and (min-width:1200px){
     .many_relation{
         margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width:1900px){
+    .header_left_part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18rem;
+    }
+    .header_left_part h1{
+        font-size: 3.5rem;
+    }
+    .universal{
+        margin-left: 3rem;
+    }
+    .header_left_part p{
+        font-size: 1.5rem;
     }
 }
