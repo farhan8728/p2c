@@ -165,10 +165,47 @@ body{
     .header_left_part p{
         font-size: 1.3rem;
     }
+
+
+
+    .first_sec{
+        margin-left: 1.2rem;
+    }
+    .school_pic_learning {
+        margin-top: 0px;
+        margin-left: 2.3rem !important;
+        padding-bottom: 1.5rem;
+       
+    }
+    .first_sec_2ndpart{
+        margin-top: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .school_pic_learning {
+        margin-top: 5rem;
+        margin-left: -1.313rem;
+        padding-bottom: 1.5rem;
+    }
+    .first_sec_2ndpart{
+        margin-top: 1.5rem;
+    }
+    .first_sec{
+        margin-left: 1.2rem;
+    }
+    
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
     .kids{
         height: 150px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .many_relation{
+        margin-bottom: 0 !important;
     }
 }
